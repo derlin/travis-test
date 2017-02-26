@@ -6,7 +6,7 @@
 
     <groupId>ch.derlin</groupId>
     <artifactId>easycmd-java</artifactId>
-    <version>0.1</version>
+    <version>0.0</version>
 
     <properties>
         <gson.version>2.7</gson.version>
