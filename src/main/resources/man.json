@@ -1,0 +1,67 @@
+[
+  {
+    "name": "find",
+    "args": "<search> [,search]",
+    "descr": "find all the accounts having at least one field containing one or more of the search term"
+  },
+  {
+    "name": "show",
+    "args": "<search | index>",
+    "descr": "display the details of the account. If a search term is used, it must match only one account."
+  },
+  {
+    "name": "showpass",
+    "args": "<search | index>",
+    "descr": "display the password in the console. Press any key to hide it again."
+  },
+  {
+    "name": "copy",
+    "args": "<field> <search | index>",
+    "descr": "copy the field <field> of the given account to the clipboard. Field is one of: name, pseudo, pass, email, notes."
+  },
+  {
+    "name": "edit",
+    "args": "<search | index>",
+    "descr": "edit the given account. Leave the password empty if you don't want to modify it."
+  },
+  {
+    "name": "new",
+    "args": "",
+    "descr": "add an account."
+  },
+  {
+    "name": "add",
+    "args": "",
+    "descr": "add an account."
+  },
+  {
+    "name": "delete",
+    "args": "<search | index>",
+    "descr": "delete an account."
+  },
+  {
+    "name": "load",
+    "args": "<file>",
+    "descr": "load a json file from the filesystem and encrypt it."
+  },
+  {
+    "name": "dump",
+    "args": "<file>",
+    "descr": "save the content of the given session into a json file (non encrypted)"
+  },
+  {
+    "name": "pass",
+    "args": "<search | index>",
+    "descr": "copy the password of the given account to the clipboard. Same as copy pass."
+  },
+  {
+    "name": "help",
+    "args": "<cmd>",
+    "descr": "show the usage of the given command."
+  },
+  {
+    "name": "man",
+    "args": "",
+    "descr": "print the help for all commands."
+  }
+]
