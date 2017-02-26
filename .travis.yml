@@ -5,3 +5,13 @@ jdk:
 
 sudo: false # faster builds
 script: "mvn package -B"
+
+deploy:
+  provider: releases
+  api_key: ${api_key}
+  file_glob: true
+  file: "target/easycmd-java*full.jar"
+  skip_cleanup: true
+  on:
+    all_branches: true
+    tags: true
