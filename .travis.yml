@@ -8,7 +8,8 @@ script: "mvn package -B"
 
 deploy:
   provider: releases
-  api_key: ${api_key}
+  api_key: 
+    secure: "NTqiXvgekx+0/7B237u9Yo/5wmkU9JhKBdEKQMn+RRGl2WPv29rUTqNeiSkl2kkQOvtIxLrD1keSBBEpY1+5eyABJAb8QFlOexVTq0n74vPJiEAx1kdPlmdIHVaPCs0sV20XadguBnYM1IqRoFq8qHD15bv4ijZ9SdgVl57oNF6ZmrV2C8xV+0F3I0NXoyLOFEmJqLIvMtgnB1yfUwb54w9sdqqmOFg1a3L8bhcecH6hG0/KsebB5jXH4dBc367OpCpw/TuXqjbQgCVvLZEbKO/m29wADOfMTM1ds3lytU4/fMhZdL/BuobcgaddxxAmDIr9qd+9vfVmSidunPmxbe2IZVpM9MsSQ61r1EV9WjDtVdvl6UJjBnWtxRYK5qBRzGm4rsw9WCeR0jZ4XlJNAbbU/y345TqKNMNZ38bEYJjQRwbheQHdRPtXvtorXnEvljOdP1Ty199U6ZhssY+k1hqiVeEdNv0I6X2xaPoc7/KcsiE32Ih2YO+eEvD/i/t4/LW5a3bbWYNyQGV5ltBdfTa9qAhldn4iQJeO4BBlk0O1iNbj+bVU3B9sSPEGTfT1JOpHrK6zaW39VFIu5ZDA+NlSwI/WlNn0w1bR+8aOE3AnKEQrhLjAsj6ydCWlp6Q+2T84xG12A3ZGxB/ILG+2uej6Vbsal0ivPcQA3HY9AeQ="
   file_glob: true
   file: "target/easycmd-java*full.jar"
   skip_cleanup: true
